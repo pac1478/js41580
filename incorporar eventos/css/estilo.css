@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    margin-top: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    background-image: url(../assets/camino.jpg);
+    background-size: 100%;
+    box-sizing: border-box;
+}
+
+.body__h2{
+    text-align: center;
+    font-size: 38px;
+    color: white;
+    margin-top: 50px;
+
+
+}
+
+.parrafo__1{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+    color: white;
+}
+
+.boton__index{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    size: 200px;
+
+
+}
+
+.boton__cuerpo{
+    align-items: center;
+    justify-items: center;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    
+}
+
