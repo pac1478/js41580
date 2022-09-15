@@ -1,0 +1,15 @@
+body{
+    margin: 5px;
+}
+
+.hideprivatecontent{
+    display: none;
+}
+
+.showcontent{
+    display: block;
+}
+
+.hidecontent{
+    display: none;
+}
