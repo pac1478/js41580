@@ -1,0 +1,92 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.body{
+    background-image: url(../assets/camino.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.divlogin{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 50px;
+}
+
+.h2__bienvenida {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 32px;
+    color: white;
+
+}
+.h2__usuarioycont{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 28px;
+    color: white;
+
+}
+
+.loginshow{
+    display: block;
+}
+
+.loginhide{
+    display: none;
+}
+
+.button {
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+
+
+}
+
+.selectaeropuerto__hide{
+    display: none;
+}
+
+.selectaeropuerto__show{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 200px;
+}
+
+.p__selectaep{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.f__selectaep{
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.h3{
+    color: white;
+}

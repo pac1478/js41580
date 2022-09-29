@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Transcorp - Transporte Corporativo
+
+    </title>
+</head>
+<body class="body">
+
+    <div id="divlogin" class="loginshow">
+        <div id="divlogin2">
+            <h2 class="h2__bienvenida">Bienvenido a Transcorp</h2>
+            <br>
+            <h2 class="h2__usuarioycont">Ingrese su usario y contraseña</h2>
+            
+        </div>
+        <div class="divlogin" id="divlogin2">
+            <form id="login" class="formloginshow">
+                <input type="text" name="usuario" placeholder="usuario"  id="user">
+                <br>
+                <input type="text" name="contraseña" placeholder="contraseña" id="pass">
+                <br>
+                <button type="submit" id="submit" class="button" onclick="login(event)">Login</button>
+            </form>
+        </div>   
+    </div>
+
+    <div class="selectaeropuerto__hide" id="selectaeropuerto">
+        <form id="aep" class="aep">
+            <p class="p__selectaep">Selecione Aeropuerto y presione "enter"</p>
+            <input type="text" id="formaep" placeholder="1 - Ezeiza 2 - Aeroparque">
+            <button type="submit" id="submitaep" class="button" onclick="ezeiza(event)">submit</button>
+
+
+        </form>
+    <div id="inner">
+        <h3 id="innertxt" class="h3"></h3>
+
+    </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/luxon@2.3.0/build/global/luxon.min.js"></script>
+    <script src="./js/javascript.js"></script>
+    
+</body>
+</html>
